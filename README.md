@@ -6,11 +6,17 @@ A visual intelligence dashboard that transforms brand parameters into actionable
 
 ---
 
-## Why This Exists
+## 📋 Quick Summary
+
+> 📊 這是一款**即時品牌輿情分析儀表板**，讓品牌策略師只需輸入品牌名稱、目標受眾與關鍵字，就能獲得 AI 驅動的深度消費者洞察。🎯 系統透過 LLM 大語言模型自動分析**消費者痛點**（依嚴重程度排序）、**情緒分布**（百分比拆解）、**社群趨勢偵測**與**語言風格建議**。✍️ 更厲害的是，系統會根據分析結果直接生成**平台專屬的行銷內容**，包含完整文案、標題、Hashtag 和圖片生成提示詞。🌐 支援 Dcard、PTT、Instagram、Facebook 四大平台。🛠️ 技術上採用 Next.js 14 + TypeScript + Tailwind CSS 前端，搭配 Express + LLM 後端，提供步驟式引導介面。💰 解決了傳統社群聆聽工具**昂貴且泛化**的問題，專為需要快速、精準品牌情報的行銷人打造。適合**品牌經理、社群操盤手、行銷顧問**使用。
+
+---
+
+## 🤔 Why This Exists
 
 Social listening tools are expensive and generic. This dashboard is built for hands-on brand strategists who need fast, specific intelligence: What are consumers actually feeling? What pain points drive their decisions? What content angles will resonate on which platforms? Brand Sentiment Dashboard answers these questions with LLM-powered analysis and purpose-built visualizations.
 
-## Architecture
+## 🏗️ Architecture
 
 ```
 Brand Configuration (name, tagline, audience, keywords, platform)
@@ -59,7 +65,7 @@ Analysis        Distribution      Detection         Generation
 - **Instagram** -- Visual-first social content
 - **Facebook** -- Community and fan page engagement
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript
@@ -69,7 +75,7 @@ Analysis        Distribution      Detection         Generation
 - **Data Layer**: Firebase / Firestore
 - **Deployment**: Static export ready via `next build`
 
-## Quick Start
+## 🚀 Quick Start
 
 ```bash
 # Install dependencies
@@ -99,7 +105,7 @@ npm install && npm start
 
 Without the backend, the dashboard operates with built-in mock data so you can explore the full interface.
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 brand-sentiment-dashboard/
